@@ -17,6 +17,19 @@ namespace Hackathon
         public static string responseText = "";
         public static bool thinking = false;
         public static bool speaking = false;
+
+        public static int curPerson = 0;
+
+        public static string[] people = new string[]
+        {
+            "Nichola Tesla",
+            "Thomas Edison",
+            "Albert Einstein",
+            "Alexander the Great",
+            "Pythagoras",
+            "William Shakespeare",
+            "Al Biruni"
+        };
         static void Main(string[] args)
         {
             //
@@ -48,7 +61,7 @@ namespace Hackathon
 
                     var messages = new List<Message>
                     {
-                        new Message(Role.System, "Speak from the perspective of Nichola Tesla explaining your own theories. Give short answers. Have some humour and keep answers brief!"),
+                        new Message(Role.System, "Speak from the perspective of " + people[curPerson % people.Length] + " explaining your own theories. Give short answers. Have some humour and keep answers brief!"),
                         new Message(Role.User, request)
                     };
 

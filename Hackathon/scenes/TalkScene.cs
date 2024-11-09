@@ -15,6 +15,8 @@ namespace Hackathon.scenes
         private MouseState mouse;
         GUIText inputBox;
         GUIText outputBox;
+        GUIText nameText;
+        
         public TalkScene(MouseState mouse, EntityManager entityManager, GUIManager guiManager, SceneManager sceneManager) : base(entityManager, guiManager, sceneManager)
         {
             this.mouse = mouse;
@@ -29,7 +31,7 @@ namespace Hackathon.scenes
             skybox = new Skybox("Space", Toolbox.camera, OBJLoader.loadOBJ("Cube"), 1);
             inputBox = (GUIText)guiManager.Add(new GUIText(new Vector2(-3.7f, -3.5f), 0.25f, Fonts.FONT_READABLE, ""));
             outputBox = (GUIText)guiManager.Add(new GUIText(new Vector2(-3.7f, 2.8f), 0.2f, Fonts.FONT_READABLE, "Hello there!"));
-            guiManager.Add(new GUIText(new Vector2(-3.7f, 3.5f), 0.3f, Fonts.FONT_LARGE, "NICHOLA TESLA"));
+            nameText = (GUIText)guiManager.Add(new GUIText(new Vector2(-3.7f, 3.5f), 0.3f, Fonts.FONT_LARGE, "NICHOLA TESLA"));
         }
         string typedText = "";
         bool finishedTyping = true;
@@ -96,6 +98,11 @@ namespace Hackathon.scenes
                     }
 
                 }
+            }
+            nameText.Text = Program.people[Program.curPerson %  Program.people.Length].ToUpper();
+            if (Keyboard.getSpecialKey(Keys.Tab))
+            {
+                Program.curPerson++;
             }
             outputBox.Text = typedText;
             //Toolbox.camera.rotation.Y += Time.deltaTime;

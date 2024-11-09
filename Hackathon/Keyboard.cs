@@ -47,7 +47,7 @@ namespace Hackathon
             }
             else if (key.Key == Keys.Space) typedCharacters.Add(' ');
 
-            if(key.Key == Keys.Backspace)
+            if(key.Key == Keys.Backspace || key.Key == Keys.Tab)
             {
                 specialKeys.Add(key.Key);
             }
