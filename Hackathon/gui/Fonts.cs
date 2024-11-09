@@ -66,7 +66,7 @@ namespace Hackathon.gui
             characters2[76] = '“';
             characters2[77] = '”';
 
-            char[] characters3 = new char[78];
+            char[] characters3 = new char[95];
             for (int i = 0; i < 26; i++)
             {
                 characters3[i + 1] = (char)('A' + i);
@@ -84,22 +84,38 @@ namespace Hackathon.gui
             characters3[63] = '.';
             characters3[64] = ',';
             characters3[65] = ':';
-            characters3[66] = '!';
-            characters3[67] = '?';
-            characters3[68] = '\'';
-            characters3[69] = '~';
-            characters3[70] = '-';
-            characters3[71] = '*';
-            characters3[72] = '|';
-            characters3[73] = '&';
-            characters3[74] = '(';
-            characters3[75] = ')';
-            characters3[76] = '“';
-            characters3[77] = '”';
+            characters3[66] = ';';
+            characters3[67] = '!';
+            characters3[68] = '?';
+            characters3[69] = '\'';
+            characters3[70] = '\"';
+            characters3[71] = '£';
+            characters3[72] = '$';
+            characters3[73] = '%';
+            characters3[74] = '^';
+            characters3[75] = '&';
+            characters3[76] = '*';
+            characters3[77] = '/';
+            characters3[78] = '(';
+            characters3[79] = ')';
+            characters3[80] = '-';
+            characters3[81] = '=';
+            characters3[82] = '+';
+            characters3[83] = '\\';
+            characters3[84] = '|';
+            characters3[85] = '<';
+            characters3[86] = '>';
+            characters3[87] = '[';
+            characters3[88] = ']';
+            characters3[89] = '{';
+            characters3[90] = '}';
+            characters3[91] = '#';
+            characters3[92] = '~';
+            characters3[93] = '`';
 
             FONT_LARGE = new Font(new Texture("gui/Letters", TextureMinFilter.Nearest), 47, characters1, 1f);
             FONT_SMALL = new Font(new Texture("gui/FontSmall", TextureMinFilter.Nearest), 78, characters2, 0.5f);
-            FONT_READABLE = new Font(new Texture("gui/FontNew", TextureMinFilter.Linear), 94, characters3, 0.5f);
+            FONT_READABLE = new Font(new Texture("gui/FontNew", TextureMinFilter.Linear), 95, characters3, 0.5f);
 
 
         }

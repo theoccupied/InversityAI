@@ -14,6 +14,7 @@ namespace Hackathon.scenes
         Skybox skybox;
         private MouseState mouse;
         GUIText inputBox;
+        GUIText outputBox;
         public TalkScene(MouseState mouse, EntityManager entityManager, GUIManager guiManager, SceneManager sceneManager) : base(entityManager, guiManager, sceneManager)
         {
             this.mouse = mouse;
@@ -27,7 +28,11 @@ namespace Hackathon.scenes
             
             skybox = new Skybox("Space", Toolbox.camera, OBJLoader.loadOBJ("Cube"), 1);
             inputBox = (GUIText)guiManager.Add(new GUIText(new Vector2(-3.7f, -3.5f), 0.25f, Fonts.FONT_READABLE, ""));
+            outputBox = (GUIText)guiManager.Add(new GUIText(new Vector2(-3.7f, 2.8f), 0.2f, Fonts.FONT_READABLE, "Hello there!"));
+            guiManager.Add(new GUIText(new Vector2(-3.7f, 3.5f), 0.3f, Fonts.FONT_LARGE, "NICHOLA TESLA"));
         }
+        string typedText = "";
+        bool finishedTyping = true;
         public override void Update()
         {
             base.Update();
@@ -46,7 +51,6 @@ namespace Hackathon.scenes
 
             Toolbox.camera.rotation = new Vector3(mousePos.Y/10f, mousePos.X/10f, 0f);
 
-
             sphere.fancy = Program.thinking;
             char c = Keyboard.getTypedKey();
             if (c != '\0')
@@ -62,13 +66,43 @@ namespace Hackathon.scenes
                 if(inputBox.Text.Length > 0)
                 {
                     Program.request = inputBox.Text;
+                    finishedTyping = false;
                     inputBox.Text = "";
                 }
             }
+            if (!finishedTyping)
+            {
+                typeTime += Time.deltaTime;
+                if(typeTime > 0.045f)
+                {
+                    typeTime = 0;
+                    if(typedText.Length < Program.responseText.Length)
+                    {
+                        char nextC = Program.responseText[typedText.Length];
+                        if (line2 > 25 && nextC == ' ')
+                        {
+                            typedText += "\n";
+                            line2 = 0;
+                        }
+                        else
+                        {
+                            typedText += nextC;
+                            line2++;
+                        }
+                    }
+                    else
+                    {
+                        finishedTyping = false;
+                    }
 
+                }
+            }
+            outputBox.Text = typedText;
             //Toolbox.camera.rotation.Y += Time.deltaTime;
 
         }
+        int line2 = 0;
+        float typeTime = 0f;
         public override void Render()
         {
             Clear(ClearBufferMask.DepthBufferBit);

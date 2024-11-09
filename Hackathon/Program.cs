@@ -14,6 +14,7 @@ namespace Hackathon
         public static bool Running = true;
         public static bool talking = false;
         public static string request = "";
+        public static string responseText = "";
         public static bool thinking = false;
         public static bool speaking = false;
         static void Main(string[] args)
@@ -57,7 +58,8 @@ namespace Hackathon
 
                     thinking = false;
                     speaking = true;
-                    synthesizer.Speak(((JsonElement)response.FirstChoice.Message.Content).ToString());
+                    responseText = ((JsonElement)response.FirstChoice.Message.Content).ToString();
+                    synthesizer.Speak(responseText);
                     speaking = false;
                     request = "";
                 }

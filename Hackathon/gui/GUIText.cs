@@ -41,8 +41,9 @@ namespace Hackathon.gui
             for (int i = 0; i < textures; i++)
             {
                 curSprite = _text[i];
-                if(curSprite == -1)
+                if (currentText[i]=='\n')
                 {
+                    Console.WriteLine("hello");
                     curYPos += 1;
                     curXPos = 0;
                     continue;
