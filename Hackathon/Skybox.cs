@@ -18,6 +18,13 @@ namespace Hackathon
             cubemap = new Cubemap(name);
             color = Color4.White;
         }
+        public Skybox(string name, Camera cam, Model model, int num)
+        {
+            this.model = model;
+            shader = new SkyboxShader(cam);
+            cubemap = new Cubemap(name, num);
+            color = Color4.White;
+        }
         public Skybox(string name, Camera cam, Model model, Color4 color)
         {
             this.model = model;

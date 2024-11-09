@@ -7,6 +7,29 @@ namespace Hackathon
     internal class Cubemap
     {
         private int textureID;
+        public Cubemap(string name, int num)
+        {
+            textureID = GenTexture();
+            ActiveTexture(TextureUnit.Texture0);
+            BindTexture(TextureTarget.TextureCubeMap, textureID);
+
+            for (int i = 0; i < 6; i++)
+            {
+                Image image = new Image("./res/textures/skybox/" + name + ".png");
+
+                TexImage2D(TextureTarget.TextureCubeMapPositiveX + i, 0, PixelInternalFormat.Rgba,
+                    (int)image.Size.X, (int)image.Size.Y, 0, PixelFormat.Rgba,
+                    PixelType.UnsignedByte, image.Pixels);
+            }
+
+            TexParameter(TextureTarget.TextureCubeMap, TextureParameterName.TextureMinFilter, (int)TextureMinFilter.Linear);
+            TexParameter(TextureTarget.TextureCubeMap, TextureParameterName.TextureMagFilter, (int)TextureMagFilter.Linear);
+            TexParameter(TextureTarget.TextureCubeMap, TextureParameterName.TextureWrapS, (int)TextureWrapMode.ClampToEdge);
+            TexParameter(TextureTarget.TextureCubeMap, TextureParameterName.TextureWrapT, (int)TextureWrapMode.ClampToEdge);
+            TexParameter(TextureTarget.TextureCubeMap, TextureParameterName.TextureWrapR, (int)TextureWrapMode.ClampToEdge);
+
+            BindTexture(TextureTarget.TextureCubeMap, 0);
+        }
         public Cubemap(string name)
         {
             textureID = GenTexture();

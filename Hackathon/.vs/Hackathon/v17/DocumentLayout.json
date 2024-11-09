@@ -1,42 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\",
+  "WorkspaceRootPath": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\cs\\projects\\hackathon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\res\\textures\\gui\\fontnew.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:res\\textures\\gui\\fontnew.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\cs\\projects\\hackathon\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\res\\textures\\gui\\fontsmall.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:res\\textures\\gui\\fontsmall.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\cs\\projects\\hackathon\\scenes\\talkscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\gui\\fonts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:gui\\fonts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\scenes\\talkscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:scenes\\talkscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\cs\\projects\\hackathon\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\cs\\projects\\hackathon\\shaders\\orbshader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\gui\\guitext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:gui\\guitext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\orbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:orbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\shaders\\orbshader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:shaders\\orbshader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\cs\\projects\\hackathon\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\cs\\projects\\hackathon\\toolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:toolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\res\\shaders\\orb.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:res\\shaders\\orb.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\cs\\projects\\hackathon\\scenes\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:scenes\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\res\\shaders\\orb.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:res\\shaders\\orb.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\cs\\projects\\hackathon\\scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\skybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:skybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|c:\\users\\davko\\onedrive - xaverian college\\documents\\hackathon\\inversityai\\hackathon\\texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B286E10-7C86-4E1A-8F17-A9B10A686D87}|Hackathon.csproj|solutionrelative:texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +62,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TalkScene.cs",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\scenes\\TalkScene.cs",
+              "RelativeDocumentMoniker": "scenes\\TalkScene.cs",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\scenes\\TalkScene.cs",
+              "RelativeToolTip": "scenes\\TalkScene.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwEEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T19:14:34.392Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FontNew.png",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\res\\textures\\gui\\FontNew.png",
+              "RelativeDocumentMoniker": "res\\textures\\gui\\FontNew.png",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\res\\textures\\gui\\FontNew.png",
+              "RelativeToolTip": "res\\textures\\gui\\FontNew.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-09T14:44:41.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FontSmall.png",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\res\\textures\\gui\\FontSmall.png",
+              "RelativeDocumentMoniker": "res\\textures\\gui\\FontSmall.png",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\res\\textures\\gui\\FontSmall.png",
+              "RelativeToolTip": "res\\textures\\gui\\FontSmall.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-09T14:44:06.432Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -58,112 +112,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAD4vzQAAAAoAAAA",
+              "DocumentIndex": 2,
+              "Title": "Fonts.cs",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\gui\\Fonts.cs",
+              "RelativeDocumentMoniker": "gui\\Fonts.cs",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\gui\\Fonts.cs",
+              "RelativeToolTip": "gui\\Fonts.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAQwGUAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T10:15:56.803Z",
+              "WhenOpened": "2024-11-09T14:39:10.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "OrbEntity.cs",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\OrbEntity.cs",
+              "RelativeDocumentMoniker": "OrbEntity.cs",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\OrbEntity.cs",
+              "RelativeToolTip": "OrbEntity.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T13:24:58.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "orb.frag",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\res\\shaders\\orb.frag",
+              "RelativeDocumentMoniker": "res\\shaders\\orb.frag",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\res\\shaders\\orb.frag",
+              "RelativeToolTip": "res\\shaders\\orb.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-09T12:56:30.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GUIText.cs",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\gui\\GUIText.cs",
+              "RelativeDocumentMoniker": "gui\\GUIText.cs",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\gui\\GUIText.cs",
+              "RelativeToolTip": "gui\\GUIText.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBwAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T12:27:35.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "orb.vert",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\res\\shaders\\orb.vert",
+              "RelativeDocumentMoniker": "res\\shaders\\orb.vert",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\res\\shaders\\orb.vert",
+              "RelativeToolTip": "res\\shaders\\orb.vert",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-09T11:58:53.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Texture.cs",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Texture.cs",
+              "RelativeDocumentMoniker": "Texture.cs",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Texture.cs",
+              "RelativeToolTip": "Texture.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwBEAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T11:53:45.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Skybox.cs",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Skybox.cs",
+              "RelativeDocumentMoniker": "Skybox.cs",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Skybox.cs",
+              "RelativeToolTip": "Skybox.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T11:53:24.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T10:15:56.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "OrbShader.cs",
-              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\shaders\\OrbShader.cs",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\shaders\\OrbShader.cs",
               "RelativeDocumentMoniker": "shaders\\OrbShader.cs",
-              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\shaders\\OrbShader.cs",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\shaders\\OrbShader.cs",
               "RelativeToolTip": "shaders\\OrbShader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T19:30:13.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TalkScene.cs",
-              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\scenes\\TalkScene.cs",
-              "RelativeDocumentMoniker": "scenes\\TalkScene.cs",
-              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\scenes\\TalkScene.cs",
-              "RelativeToolTip": "scenes\\TalkScene.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T19:14:34.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Scene.cs",
-              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\scenes\\Scene.cs",
-              "RelativeDocumentMoniker": "scenes\\Scene.cs",
-              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\scenes\\Scene.cs",
-              "RelativeToolTip": "scenes\\Scene.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:41:28.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SceneManager.cs",
-              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\scenes\\SceneManager.cs",
-              "RelativeDocumentMoniker": "scenes\\SceneManager.cs",
-              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\scenes\\SceneManager.cs",
-              "RelativeToolTip": "scenes\\SceneManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:41:21.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EntityManager.cs",
-              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\EntityManager.cs",
-              "RelativeDocumentMoniker": "EntityManager.cs",
-              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\EntityManager.cs",
-              "RelativeToolTip": "EntityManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:34:47.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Toolbox.cs",
-              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Toolbox.cs",
-              "RelativeDocumentMoniker": "Toolbox.cs",
-              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Toolbox.cs",
-              "RelativeToolTip": "Toolbox.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:32:43.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Entity.cs",
-              "RelativeDocumentMoniker": "Entity.cs",
-              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Entity.cs",
-              "RelativeToolTip": "Entity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:32:24.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.cs",
-              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\MainWindow.cs",
               "RelativeDocumentMoniker": "MainWindow.cs",
-              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\MainWindow.cs",
               "RelativeToolTip": "MainWindow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAtwCMAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:31:02.041Z"
+              "WhenOpened": "2024-11-08T18:31:02.041Z",
+              "EditorCaption": ""
             }
           ]
         }

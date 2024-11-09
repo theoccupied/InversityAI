@@ -15,11 +15,12 @@ namespace Hackathon.shaders
             blendU = new UniformFloat("blend", shaderHandle);
             timeU = new UniformFloat("time", shaderHandle);
         }
+        public float blend;
         public override void uploadUniforms()
         {
             if (currentEntity == null) return;
             base.uploadUniforms();
-            blendU.upload(0.5f);
+            blendU.upload(blend);
             timeU.upload(Time.time);
         }
     }

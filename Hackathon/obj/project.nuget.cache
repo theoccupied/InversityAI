@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HZAcNBs5fk0=",
+  "dgSpecHash": "LyNxGDOY74Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Hackathon.csproj",
+  "projectFilePath": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Hackathon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\davko\\.nuget\\packages\\csfml\\2.6.1\\csfml.2.6.1.nupkg.sha512",
     "C:\\Users\\davko\\.nuget\\packages\\openai-dotnet\\8.3.0\\openai-dotnet.8.3.0.nupkg.sha512",

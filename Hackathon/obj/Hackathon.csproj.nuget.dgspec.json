@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Hackathon.csproj": {}
+    "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Hackathon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Hackathon.csproj": {
+    "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Hackathon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Hackathon.csproj",
+        "projectUniqueName": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Hackathon.csproj",
         "projectName": "Hackathon",
-        "projectPath": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\Hackathon.csproj",
+        "projectPath": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\Hackathon.csproj",
         "packagesPath": "C:\\Users\\davko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\CS\\Projects\\Hackathon\\obj\\",
+        "outputPath": "C:\\Users\\davko\\OneDrive - Xaverian College\\Documents\\Hackathon\\InversityAI\\Hackathon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\davko\\AppData\\Roaming\\NuGet\\NuGet.Config",

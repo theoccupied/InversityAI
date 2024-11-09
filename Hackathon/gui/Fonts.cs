@@ -11,6 +11,7 @@ namespace Hackathon.gui
     {
         public static Font? FONT_LARGE;
         public static Font? FONT_SMALL;
+        public static Font? FONT_READABLE;
 
         public static void initFonts()
         {
@@ -64,8 +65,43 @@ namespace Hackathon.gui
             characters2[75] = ')';
             characters2[76] = '“';
             characters2[77] = '”';
+
+            char[] characters3 = new char[78];
+            for (int i = 0; i < 26; i++)
+            {
+                characters3[i + 1] = (char)('A' + i);
+            }
+            for (int i = 0; i < 26; i++)
+            {
+                characters3[i + 27] = (char)('a' + i);
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                characters3[i + 53] = (char)('0' + i);
+            }
+
+            characters3[0] = ' ';
+            characters3[63] = '.';
+            characters3[64] = ',';
+            characters3[65] = ':';
+            characters3[66] = '!';
+            characters3[67] = '?';
+            characters3[68] = '\'';
+            characters3[69] = '~';
+            characters3[70] = '-';
+            characters3[71] = '*';
+            characters3[72] = '|';
+            characters3[73] = '&';
+            characters3[74] = '(';
+            characters3[75] = ')';
+            characters3[76] = '“';
+            characters3[77] = '”';
+
             FONT_LARGE = new Font(new Texture("gui/Letters", TextureMinFilter.Nearest), 47, characters1, 1f);
             FONT_SMALL = new Font(new Texture("gui/FontSmall", TextureMinFilter.Nearest), 78, characters2, 0.5f);
+            FONT_READABLE = new Font(new Texture("gui/FontNew", TextureMinFilter.Linear), 94, characters3, 0.5f);
+
+
         }
     }
 }

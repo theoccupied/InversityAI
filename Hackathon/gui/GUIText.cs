@@ -9,6 +9,10 @@ namespace Hackathon.gui
         
         public string Text
         {
+            get
+            {
+                return currentText;
+            }
             set
             {
                 _text.Clear();

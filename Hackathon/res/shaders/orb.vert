@@ -8,6 +8,7 @@ out vec2 vTexCoord;
 out vec3 vNormal;
 
 uniform float time;
+uniform float blend;
 
 uniform mat4 model;                         //Transformation matrix
 uniform mat4 projection;                    //Projection matrix
@@ -22,5 +23,5 @@ void main(){
     vec3 pos = aPosition;
     pos.x += sin(pos.y*cos(pos.y+time));
 
-    gl_Position = mvp * vec4(pos,1.0);
+    gl_Position = mvp * vec4(mix(pos,aPosition, blend) * vec3(9.0/16.0, 1.0,1.0),1.0);
 }

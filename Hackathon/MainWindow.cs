@@ -35,7 +35,7 @@ namespace Hackathon
         }
         protected override void OnKeyDown(KeyboardKeyEventArgs e)
         {
-            Keyboard.keyDown(e.Key);
+            Keyboard.keyDown(e);
             base.OnKeyDown(e);
 
         }
